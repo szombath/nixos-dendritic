@@ -6,6 +6,7 @@ Wallpapers used by [Stylix](https://github.com/danth/stylix) for system theming.
 
 - `lighthouse.png`
 - `nix.png`
+...
 
 ## Usage
 

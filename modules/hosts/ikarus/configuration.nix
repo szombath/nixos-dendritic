@@ -26,7 +26,6 @@
 
         # SERVICES
         cockpit
-        glances
         tailscale
       ];
 
@@ -34,7 +33,6 @@
       '';
 
       cockpit.openTailscale = true;
-      glances.openTailscale = true;
     };
   };
 }

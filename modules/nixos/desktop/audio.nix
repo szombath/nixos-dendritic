@@ -12,7 +12,6 @@
           pulse.enable = true;
           jack.enable = true;
         };
-
         pulseaudio.enable = false;
       };
 

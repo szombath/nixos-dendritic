@@ -11,10 +11,10 @@ Primary desktop/laptop configuration.
 - State version: `26.05`
 - Wallpaper: `wallpapers/nix.png`
 - Base16 scheme: `gruvbox-dark-hard`
-- Display manager: SDDM
+- Display manager: GDM
 - Desktop environment: Gnome
-- Enabled modules: bluetooth, plymouth, podman, core, desktop, bitwarden, proton, cockpit, glances, tailscale
-- Special config: SSH proxy through cloudflared for gitea, Cockpit/Glances exposed via Tailscale
+- Enabled modules: bluetooth, plymouth, podman, core, desktop, bitwarden, cockpit, tailscale
+- Special config: SSH proxy through cloudflared for gitea, Cockpit exposed via Tailscale
 
 **Files:**
 
@@ -33,8 +33,8 @@ Secondary host configuration.
 - Base16 scheme: `catppuccin-mocha`
 - Display manager: SDDM
 - Desktop environment: KDE Plasma
-- Enabled modules: bluetooth, plymouth, podman, core, desktop, fingerprint, bitwarden, proton, cockpit, glances, tailscale
-- Special config: SSH proxy through cloudflared for gitea, Cockpit/Glances exposed via Tailscale
+- Enabled modules: bluetooth, plymouth, podman, core, desktop, fingerprint, bitwarden, cockpit, tailscale
+- Special config: SSH proxy through cloudflared for gitea, Cockpit exposed via Tailscale
 
 **Files:**
 

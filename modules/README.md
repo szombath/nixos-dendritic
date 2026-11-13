@@ -39,9 +39,11 @@ Desktop configuration using GDM + Gnome, with services like Tailscale, and tools
 
 ### ikarus
 
-Desktop configuration using SDDM + KDE Plasma (see `modules/hosts/ikarus/` for details).
+Desktop configuration using SDDM + KDE Plasma, with services like Tailscale, and tools like Podman, Bluetooth, Plymouth.
 
-## nixos/
+## nixbook/
+
+VM configuration using GDM + Gnome.
 
 System-level modules organized by functionality:
 
@@ -79,8 +81,6 @@ Self-hosted/containerized services:
 
 - `adguardhome.nix` - AdGuard Home DNS filtering
 - `cockpit.nix` - Web-based system management
-- `glances.nix` - System monitoring
-- `immich.nix` - Photo management
 - `nginx.nix` - Web server
 - `ollama.nix` - Local LLM service
 - `portainer.nix` - Container management UI
@@ -114,10 +114,11 @@ Development tools:
 
 ### ai/
 
+AI related tools:
+
 - `antigravity.nix` - Antigravity integration
 - `opencode/` - OpenCode configuration with custom agents
 
-AI related tools:
 
 ### office/
 
@@ -144,4 +145,4 @@ Since this uses the dendritic pattern with import-tree, any `.nix` file placed i
 3. Define Home Manager modules under `flake.modules.homeManager.<name>`
 4. Define options and configure the system
 
-Follow the existing patterns for consistency.
+Always follow the existing patterns for consistency.

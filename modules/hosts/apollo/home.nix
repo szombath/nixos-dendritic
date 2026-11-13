@@ -8,7 +8,15 @@
         nixpkgs.config.permittedInsecurePackages = [
           "electron-40.10.5"
           "ventoy-1.1.18"
+          "python3.14-python-jose-3.5.0"
         ];
+
+        #pkgs = import nixpkgs {
+        #  inherit system;
+        #  config.permittedInsecurePackages = [
+        #    "python3.12-python-jose-3.5.0"
+        #  ];
+        #};
 
         # HACK: permit gtk2
         nixpkgs.config.problems.handlers = {
