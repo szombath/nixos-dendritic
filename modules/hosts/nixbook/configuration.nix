@@ -15,8 +15,8 @@
         core
 
         # DESKTOP
-        gdm
-        gnome
+        sddm
+        kde
         desktop
 
         # SERVICES
