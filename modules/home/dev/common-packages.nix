@@ -3,6 +3,9 @@
     { pkgs, ... }:
     {
       home.packages = with pkgs; [
+        git
+        vscodium
+
         # LANGUAGE
         ## PYTHON
         python3

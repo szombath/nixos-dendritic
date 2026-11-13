@@ -1,6 +1,6 @@
 { inputs, ... }:
 {
-  configurations.nixos.nixbook.module =
+  configurations.nixos.vm-nixos.module =
     {
       config,
       lib,

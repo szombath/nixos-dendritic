@@ -1,6 +1,6 @@
 { config, ... }:
 {
-  configurations.homeManager.nixbook = {
+  configurations.homeManager.vm-nixos = {
     module =
       { pkgs, ... }:
       {
@@ -8,7 +8,6 @@
         nixpkgs.config.permittedInsecurePackages = [
           "electron-40.10.5"
           "ventoy-1.1.18"
-          "python3.14-python-jose-3.5.0"
         ];
 
         #pkgs = import nixpkgs {
@@ -44,19 +43,16 @@
           calibre
           obsidian
           onlyoffice
-          portfolio
         ];
 
         plasma-manager.override = false;
 
         home.packages = with pkgs; [
-          winboat # windows as a container
-          authenticator # Two factor authenticatort
-          nextcloud-client # nextcloud desktop
-          yacreader # comic reader
+          git
+          btop
+          vscodium
+
           dbeaver-bin # db manager
-          qbittorrent-enhanced # torrent
-          teams-for-linux # teams
           bruno # package sender
           chromium
           krita # paint

@@ -1,6 +1,6 @@
 { config, ... }:
 {
-  configurations.nixos.nixbook = {
+  configurations.nixos.vm-nixos = {
     # System options
     stateVersion = "26.05";
     wallpaper = ../../../wallpapers/gears-in-a-machine.jpg;

@@ -5,9 +5,10 @@
     { pkgs, ... }:
     {
       programs.zsh.enable = true;
+      programs.bash.enable = true;
       users = {
-        defaultUserShell = pkgs.zsh;
-        users.${config.user.username}.shell = pkgs.zsh;
+        defaultUserShell = pkgs.bash;
+        users.${config.user.username}.shell = pkgs.bash;
       };
     };
 }

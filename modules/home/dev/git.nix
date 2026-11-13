@@ -11,6 +11,7 @@
             inherit (config.user) email;
           };
           init.defaultBranch = "main";
+          core.editor = "nano";
         };
       };
       lazygit.enable = true;

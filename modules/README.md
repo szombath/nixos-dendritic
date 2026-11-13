@@ -41,7 +41,7 @@ Desktop configuration using GDM + Gnome, with services like Tailscale, and tools
 
 Desktop configuration using SDDM + KDE Plasma, with services like Tailscale, and tools like Podman, Bluetooth, Plymouth.
 
-## nixbook/
+## vm-nixos/
 
 VM configuration using GDM + Gnome.
 
@@ -103,7 +103,7 @@ Development tools:
 
 - `default.nix` - Dev module aggregator
 - `git.nix` - Git configuration
-- `bash.nix`, `bash_aliases.nix` - Bash shell configuration
+- `bash.nix` - Bash shell configuration
 - `zsh.nix` - Zsh shell configuration
 - `alacritty.nix` - Alacritty terminal
 - `zed.nix` - Zed editor
