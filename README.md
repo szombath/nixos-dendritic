@@ -1,4 +1,4 @@
-# nixos-dendritic
+# nixos-dendritic-adega318 (based on github:Adega318/nixos-dendritic)
 
 [![NixOS](https://img.shields.io/badge/NixOS-unstable-blue?logo=nixos&logoColor=white)](https://nixos.org)
 [![flake-parts](https://img.shields.io/badge/built%20with-flake--parts-7a4c9d)](https://github.com/hercules-ci/flake-parts)
